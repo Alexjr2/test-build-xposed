@@ -25,6 +25,8 @@ jobs:
 
       - name: Setup Gradle
         uses: gradle/actions/setup-gradle@main
+        with:
+         cache-disabled: true
 
       - name: Grant Permissions for Gradle
         run: |
