@@ -5,6 +5,7 @@ on:
    inputs:
      TAG:
       description: 'TAG Required'
+      required: true
 
 permissions:
   contents: write
